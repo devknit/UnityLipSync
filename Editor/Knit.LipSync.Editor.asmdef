@@ -1,0 +1,20 @@
+{
+    "name": "Knit.LipSync.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e68a49dde9996d84faa3981ececdcc9e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
