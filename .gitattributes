@@ -1,0 +1,170 @@
+# Windows
+*.[Bb][Aa][Tt] text eol=crlf
+
+# Linux
+*.[Ss][Hh]     text eol=lf
+
+# Text
+*.[Bb][Aa][Ss]     text eol=lf
+*.[Cc]             text eol=lf
+*.[Cc][Ss]         diff=csharp text eol=lf
+*.[Cc][Pp][Pp]     text eol=lf
+*.[Cc][Ss][Ss]     text eol=lf
+*.[Jj][Aa][Vv][Aa] text eol=lf
+*.[Jj][Ss][Oo][Nn] text eol=lf
+*.[Hh][Tt][Mm][Ll] text eol=lf
+*.[Ii][Nn][Ii]     text eol=lf
+*.[Mm]             text eol=lf
+*.[Mm][Mm]         text eol=lf
+*.[Xx][Mm][Ll]     text eol=lf
+*.[Vv][Bb]         text eol=lf
+
+# Unity Text
+*.[Aa][Ss][Mm][Dd][Ee][Ff]  text eol=lf
+*.[Cc][Gg][Ii][Nn][Cc]      text eol=lf
+*.[Ss][Hh][Aa][Dd][Ee][Rr]  text eol=lf
+
+# Unity YAML
+*.[Aa][Nn][Ii][Mm]                                                         -text merge=unityyamlmerge eol=lf
+*.[Aa][Ss][Ss][Ee][Tt]                                                     -text merge=unityyamlmerge eol=lf
+*.[Bb][Rr][Uu][Ss][Hh]                                                     -text merge=unityyamlmerge eol=lf
+*.[Cc][Oo][Nn][Tt][Rr][Oo][Ll][Ll][Ee][Rr]                                 -text merge=unityyamlmerge eol=lf
+*.[Ff][Ll][Aa][Rr][Ee]                                                     -text merge=unityyamlmerge eol=lf
+*.[Ff][Oo][Nn][Tt][Ss][Ee][Tt][Tt][Ii][Nn][Gg][Ss]                         -text merge=unityyamlmerge eol=lf
+*.[Gg][Uu][Ii][Ss][Kk][Ii][Nn]                                             -text merge=unityyamlmerge eol=lf
+*.[Gg][Ii][Pp][Aa][Rr][Aa][Mm][Ss]                                         -text merge=unityyamlmerge eol=lf
+*.[Mm][Aa][Ss][Kk]                                                         -text merge=unityyamlmerge eol=lf
+*.[Mm][Aa][Tt]                                                             -text merge=unityyamlmerge eol=lf
+*.[Mm][Ee][Tt][Aa]                                                         -text merge=unityyamlmerge eol=lf
+*.[Mm][Ii][Xx][Ee][Rr]                                                     -text merge=unityyamlmerge eol=lf
+*.[Oo][Vv][Ee][Rr][Rr][Ii][Dd][Ee][Cc][Oo][Nn][Tt][Rr][Oo][Ll][Ll][Ee][Rr] -text merge=unityyamlmerge eol=lf
+*.[Pp][Hh][Yy][Ss][Ii][Cc][Mm][Aa][Tt][Ee][Rr][Ii][Aa][Ll]2[Dd]            -text merge=unityyamlmerge eol=lf
+*.[Pp][Hh][Yy][Ss][Ii][Cc][Mm][Aa][Tt][Ee][Rr][Ii][Aa][Ll]                 -text merge=unityyamlmerge eol=lf
+*.[Pp][Ll][Aa][Yy][Aa][Bb][Ll][Ee]                                         -text merge=unityyamlmerge eol=lf
+*.[Pp][Rr][Ee][Ff][Aa][Bb]                                                 -text merge=unityyamlmerge eol=lf
+*.[Pp][Rr][Ee][Ss][Ee][Tt]                                                 -text merge=unityyamlmerge eol=lf
+*.[Rr][Ee][Nn][Dd][Ee][Rr][Tt][Ee][Xx][Tt][Uu][Rr][Ee]                     -text merge=unityyamlmerge eol=lf
+*.[Ss][Hh][Aa][Dd][Ee][Rr][Vv][Aa][Rr][Ii][Aa][Nn][Tt][Ss]                 -text merge=unityyamlmerge eol=lf
+*.[Ss][Pp][Rr][Ii][Tt][Ee][Aa][Tt][Ll][Aa][Ss]                             -text merge=unityyamlmerge eol=lf
+*.[Tt][Ee][Rr][Rr][Aa][Ii][Nn][Ll][Aa][Yy][Ee][Rr]                         -text merge=unityyamlmerge eol=lf
+*.[Uu][Nn][Ii][Tt][Yy]                                                     -text merge=unityyamlmerge eol=lf
+
+# Unity LFS
+*.[Cc][Uu][Bb][Ee][Mm][Aa][Pp]                      filter=lfs diff=lfs merge=lfs -text
+*.[Uu][Nn][Ii][Tt][Yy][Pp][Aa][Cc][Kk][Aa][Gg][Ee]  filter=lfs diff=lfs merge=lfs -text
+*.[Ss][Hh][Aa][Dd][Ee][Rr][Gg][Rr][Aa][Pp][Hh]      filter=lfs diff=lfs merge=lfs -text
+
+# Binary
+*.[Bb][Ii][Nn]     filter=lfs diff=lfs merge=lfs -text
+
+# 2D formats
+*.[Aa][Ii]         filter=lfs diff=lfs merge=lfs -text
+*.[Bb][Mm][Pp]     filter=lfs diff=lfs merge=lfs -text
+*.[Dd][Dd][Ss]     filter=lfs diff=lfs merge=lfs -text
+*.[Ee][Xx][Rr]     filter=lfs diff=lfs merge=lfs -text
+*.[Gg][Ii][Ff]     filter=lfs diff=lfs merge=lfs -text
+*.[Hh][Dd][Rr]     filter=lfs diff=lfs merge=lfs -text
+*.[Ii][Cc][Oo]     filter=lfs diff=lfs merge=lfs -text
+*.[Ii][Ff][Ff]     filter=lfs diff=lfs merge=lfs -text
+*.[Jj][Pp][Ee][Gg] filter=lfs diff=lfs merge=lfs -text
+*.[Jj][Pp][Gg]     filter=lfs diff=lfs merge=lfs -text
+*.[Pp][Ii][Cc][Tt] filter=lfs diff=lfs merge=lfs -text
+*.[Pp][Nn][Gg]     filter=lfs diff=lfs merge=lfs -text
+*.[Pp][Ss][Dd]     filter=lfs diff=lfs merge=lfs -text
+*.[Tt][Gg][Aa]     filter=lfs diff=lfs merge=lfs -text
+*.[Tt][Ii][Ff]     filter=lfs diff=lfs merge=lfs -text
+*.[Tt][Ii][Ff][Ff] filter=lfs diff=lfs merge=lfs -text
+
+## 3D formats
+*.3[Dd][Mm]                    filter=lfs diff=lfs merge=lfs -text
+*.3[Dd][Ss]                    filter=lfs diff=lfs merge=lfs -text
+*.[Aa][Bb][Cc]                 filter=lfs diff=lfs merge=lfs -text
+*.[Bb][Ll][Ee][Nn][Dd]         filter=lfs diff=lfs merge=lfs -text
+*.[Cc]4[Dd]                    filter=lfs diff=lfs merge=lfs -text
+*.[Cc][Oo][Ll][Ll][Aa][Dd][Aa] filter=lfs diff=lfs merge=lfs -text
+*.[Dd][Aa][Ee]                 filter=lfs diff=lfs merge=lfs -text
+*.[Dd][Xx][Ff]                 filter=lfs diff=lfs merge=lfs -text
+*.[Ff][Bb][Xx]                 filter=lfs diff=lfs merge=lfs -text
+*.[Jj][Aa][Ss]                 filter=lfs diff=lfs merge=lfs -text
+*.[Ll][Ww][Oo]                 filter=lfs diff=lfs merge=lfs -text
+*.[Ll][Ww][Oo]2                filter=lfs diff=lfs merge=lfs -text
+*.[Ll][Ww][Ss]                 filter=lfs diff=lfs merge=lfs -text
+*.[Ll][Xx][Oo]                 filter=lfs diff=lfs merge=lfs -text
+*.[Mm][Aa]                     filter=lfs diff=lfs merge=lfs -text
+*.[Mm][Aa][Xx]                 filter=lfs diff=lfs merge=lfs -text
+*.[Mm][Bb]                     filter=lfs diff=lfs merge=lfs -text
+*.[Mm][Ee][Ss][Hh]             filter=lfs diff=lfs merge=lfs -text
+*.[Oo][Bb][Jj]                 filter=lfs diff=lfs merge=lfs -text
+*.[Pp][Ll][Yy]                 filter=lfs diff=lfs merge=lfs -text
+*.[Ss][Kk][Pp]                 filter=lfs diff=lfs merge=lfs -text
+*.[Ss][Tt][Ll]                 filter=lfs diff=lfs merge=lfs -text
+*.[Zz][Tt][Ll]                 filter=lfs diff=lfs merge=lfs -text
+
+## Audio formats
+*.[Aa][Ii][Ff]     filter=lfs diff=lfs merge=lfs -text
+*.[Aa][Ii][Ff][Ff] filter=lfs diff=lfs merge=lfs -text
+*.[Bb][Aa][Nn][Kk] filter=lfs diff=lfs merge=lfs -text
+*.[Ii][Tt]         filter=lfs diff=lfs merge=lfs -text
+*.[Mm][Oo][Dd]     filter=lfs diff=lfs merge=lfs -text
+*.[Mm][Pp]3        filter=lfs diff=lfs merge=lfs -text
+*.[Oo][Gg][Gg]     filter=lfs diff=lfs merge=lfs -text
+*.[Ss]3[Mm]        filter=lfs diff=lfs merge=lfs -text
+*.[Ww][Aa][Vv]     filter=lfs diff=lfs merge=lfs -text
+*.[Xx][Mm]         filter=lfs diff=lfs merge=lfs -text
+*.[Aa][Cc][Bb]     filter=lfs diff=lfs merge=lfs -text
+*.[Aa][Ww][Bb]     filter=lfs diff=lfs merge=lfs -text
+
+# Video formats
+*.[Aa][Ss][Ff]     filter=lfs diff=lfs merge=lfs -text
+*.[Aa][Vv][Ii]     filter=lfs diff=lfs merge=lfs -text
+*.[Ff][Ll][Vv]     filter=lfs diff=lfs merge=lfs -text
+*.[Mm][Oo][Vv]     filter=lfs diff=lfs merge=lfs -text
+*.[Mm][Pp]4        filter=lfs diff=lfs merge=lfs -text
+*.[Mm][Pp][Ee][Gg] filter=lfs diff=lfs merge=lfs -text
+*.[Mm][Pp][Gg]     filter=lfs diff=lfs merge=lfs -text
+*.[Oo][Gg][Vv]     filter=lfs diff=lfs merge=lfs -text
+*.[Ww][Mm][Vv]     filter=lfs diff=lfs merge=lfs -text
+*.[Uu][Ss][Mm]     filter=lfs diff=lfs merge=lfs -text
+
+# Compile
+*.[Dd][Ll][Ll] filter=lfs diff=lfs merge=lfs -text
+*.[Mm][Dd][Bb] filter=lfs diff=lfs merge=lfs -text
+*.[Pp][Dd][Bb] filter=lfs diff=lfs merge=lfs -text
+*.[Ss][Oo]     filter=lfs diff=lfs merge=lfs -text
+
+# Archive
+*.7[Zz]                 filter=lfs diff=lfs merge=lfs -text
+*.[Bb][Zz]2             filter=lfs diff=lfs merge=lfs -text
+*.[Gg][Zz]              filter=lfs diff=lfs merge=lfs -text
+*.[Rr][Aa][Rr]          filter=lfs diff=lfs merge=lfs -text
+*.[Tt][Aa][Rr]          filter=lfs diff=lfs merge=lfs -text
+*.[Tt][Aa][Rr].[Gg][Zz] filter=lfs diff=lfs merge=lfs -text
+*.[Zz][Ii][Pp]          filter=lfs diff=lfs merge=lfs -text
+
+## Fonts
+*.[Oo][Tt][Ff] filter=lfs diff=lfs merge=lfs -text
+*.[Tt][Tt][Ff] filter=lfs diff=lfs merge=lfs -text
+
+# Executable/Installer
+*.[Aa][Pp][Kk] filter=lfs diff=lfs merge=lfs -text
+*.[Ee][Xx][Ee] filter=lfs diff=lfs merge=lfs -text
+
+# Documents
+*.[Dd][Oo][Cc][Xx] filter=lfs diff=lfs merge=lfs -text
+*.[Dd][Oo][Cc]     filter=lfs diff=lfs merge=lfs -text
+*.[Pp][Dd][Ff]     filter=lfs diff=lfs merge=lfs -text
+*.[Pp][Pp][Tt][Xx] filter=lfs diff=lfs merge=lfs -text
+*.[Pp][Pp][Tt]     filter=lfs diff=lfs merge=lfs -text
+*.[Xx][Ll][Ss][Mm] filter=lfs diff=lfs merge=lfs -text
+*.[Xx][Ll][Ss][Xx] filter=lfs diff=lfs merge=lfs -text
+*.[Xx][Ll][Ss]     filter=lfs diff=lfs merge=lfs -text
+
+# Others
+*.[Bb][Yy][Tt][Ee][Ss] filter=lfs diff=lfs merge=lfs -text
+
+## Collapse Unity-generated files on GitHub
+*.[Aa][Ss][Ss][Ee][Tt]     linguist-generated
+*.[Mm][Aa][Tt]             linguist-generated
+*.[Mm][Ee][Tt][Aa]         linguist-generated
+*.[Pp][Rr][Ee][Ff][Aa][Bb] linguist-generated
+*.[Uu][Nn][Ii][Tt][Yy]     linguist-generated
